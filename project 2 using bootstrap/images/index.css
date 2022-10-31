@@ -1,0 +1,1754 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar........................... */
+
+.main-container {
+  background: rgb(255 122 104 / 58%);
+  background: radial-gradient(#fff, #ffd6d6);
+  border: 2px solid red;
+  height: 100vh;
+}
+
+.container-A {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 30px;
+  border: 2px solid blue;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .menu-png{
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  color: #222;
+}
+
+/* container_B.......................................... */
+
+.container-B {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid rgb(0, 255, 21);
+  margin-top: 41px;
+}
+
+.text {
+  margin: 95px auto;
+  border: 2px solid red;
+}
+
+.workout-style {
+  font-size: 2.5em;
+}
+
+.success-isnt {
+  width: 500px;
+}
+
+.players-png {
+  margin: auto;
+  border: 2px solid rgb(0, 255, 21);
+}
+
+.players-png img {
+  width: 500px;
+}
+
+.explore-btn {
+  padding: 10px 19px;
+  background: #ff523b;
+  border: none;
+  border-radius: 25px;
+  margin-top: 40px;
+  color: white;
+  transition: .3s ease-in;
+}
+
+
+.explore-btn:hover {
+  background: #563434;
+  cursor: pointer;
+}
+
+
+
+/* <!-- ....................second page /container-2 --> */
+
+.category {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid rgb(255, 0, 128);
+  margin: 80px 200px;
+}
+
+.category .col-1 {
+  flex-basis: 33.33%;
+  transition: .4s ease-in;
+}
+
+.category .col-1:hover {
+  transform: translate(3px ,-10px ); 
+}
+
+.category img {
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.col-1 {
+  padding: 20px;
+  transition: .4s ease-in-out;
+}
+
+/* container-3...../......................... */
+
+.feature-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 70px;
+  border: 3px solid #222;
+}
+
+/* feature-product & latest product 
+
+                     &
+
+                container-4
+
+ .................utilites........................ */
+
+.feature-product .size {
+  height: 200px;
+}
+
+.feature-product .size-2 {
+  height: 245px;
+}
+
+.watch-png .size-3 {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.text-p {
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+
+.feature-product .col-1:hover {
+  transform: translate(3px ,-10px ); 
+}
+
+/* ................................................... */
+
+.text-h {
+  text-align: center;
+  margin: auto;
+}
+
+.affter::after{
+  width: 160px;
+  height: 6px;
+  margin: auto;
+  border-radius: 17px;
+  position: absolute;
+  content: "";
+  background: red;
+  top: 7%;
+  left: 44%;
+
+}
+
+.container-3 {
+    position: relative;
+
+}
+
+.text-h2 {
+  font-size: 2.7em;
+}
+
+.text-p2 {
+  margin: 60px 0 0 0px;
+  font-weight: bolder;
+}
+
+.text-p3 {
+  font-weight: bolder;
+}
+
+/* ..............................container-4.............................................. */
+
+.container-4 {
+  border: 2px solid blueviolet;
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  background: radial-gradient(#fff, #ffd6d6);
+  padding: 25px 0;
+}
+
+.watch-png {
+  margin-left: 200px;
+}
+
+.container-C {
+  border: 2px solid blueviolet;
+  width: 600px;
+}
+
+.container-C .btn {
+  padding: 10px 22px;
+  background: #ff523b;
+  border: none;
+  border-radius: 25px;
+  margin-top: 40px;
+  color: white;
+  transition: .4s ease-in;
+}
+
+.container-C .btn:hover{
+  background: #563434;
+  cursor: pointer;
+}
+
+
+
+
+
+/* ------------------------------------- container-5......................................... */
+
+/* testimonials start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 190px;
+}
+
+.user-1 .user-1-profile {
+  border-radius: 50%;
+  height: 70px;
+}
+
+.user-1 {
+  border: 2px solid blueviolet;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 2px #555;
+  transition: .4s ease-in;
+  margin: 0 20px 0 20px;
+
+}
+
+
+.user-1:hover{
+  transform: translate(3px ,-10px ); 
+
+}
+
+.text-profile-name {
+  font-weight: bolder;
+}
+
+.text-p4 {
+  text-align: center;
+}
+
+/* ...............................spponsers.......................... */
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blueviolet;
+  margin: 20px 270px 100px 270px;
+}
+
+.brand-1 {
+  margin: auto;
+}
+
+.brands .brand-pic {
+  width: 130px;
+  filter: grayscale(100%);
+}
+
+.brands .brand-pic:hover {
+  filter: grayscale(0);
+}
+
+/* ..............................footer....................................... */
+
+.footer-God {
+  display: flex;
+  flex-direction: column;
+  background: #222;
+}
+
+.copyright p {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+hr {
+  margin:auto;
+  width: 800px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 27px 51px;
+}
+
+.footer-padding-class {
+  padding-left: 20px;
+}
+
+.footer .footer-image-1 {
+  width: 130px;
+}
+
+.footer .footer-h2 {
+  color: white;
+  font-size: 1.3em;
+}
+
+.footer .footer-p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container-8 .logo-white {
+  width: 150px;
+}
+
+.container-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-8 .footer-w {
+  width: 390px;
+}
+
+.container-9 ul li {
+  list-style: none;
+}
+
+.container-9 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-10 ul li {
+  list-style: none;
+}
+
+.container-10 ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+
+
+
+
+/* all products page css................................................................. */
+
+
+
+.container-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 18%;
+}
+
+.container-12 .products-h1 {
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+
+.page-btn{
+  margin: 40px 0 40px 190px;
+}
+
+.page-btn span:hover{
+  background: #ff523b;
+  color: #fff;
+
+}
+
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px ;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: .4s ease-in;
+}
+
+
+
+/* product details css is here.................................................. */
+
+
+
+.product-detail-page-container-B{
+
+  display: flex;
+  flex-direction: row;
+  padding: 50px 200px 50px 200px;
+  margin: auto;
+  border: 2px solid red;
+  justify-content: center;
+
+}
+
+
+.gallery-4{
+  height: 380px;
+}
+
+.details-text-col{
+  min-width: 400px;
+  margin: -13px 0 0 13px;
+  border: 2px solid red;
+  margin-right: 10px;
+
+
+
+}
+
+.fourty-five-dolor-p{
+  color: grey;
+}
+
+.red-printed-t-shirt{
+  font-weight: bold;
+}
+
+
+
+.line-height{
+  line-height: 44px;
+}
+
+.details-options{
+
+  margin: 20px 0px;
+}
+
+.details-options:focus{
+  outline: none;
+}
+
+.details-input{
+
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  border: 1px solid #ff523b;
+}
+
+
+.details-input:focus{
+
+ outline: none;
+}
+
+.details-input-flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.add-to-cart-btn{
+  padding: 7px 15px ;
+  border-radius: 20px;
+  border: none;
+  background: #ff523b;
+  color: #fff;
+  margin-left: 10px;
+  transition: .4s ease-in;
+}
+
+.add-to-cart-btn:hover{
+ 
+  background: #563434;
+  cursor: pointer;
+ 
+}
+
+
+.different-pose-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: -5px;
+}
+
+.different-pose-container .poses{
+    width: 90px;
+    margin: 4px;
+}
+
+
+
+
+
+
+
+/* <!-- cart items details.................................. --> */
+
+
+
+.cart-page{
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+
+}
+.table-1{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.table-1 .th-left{
+ text-align: left;
+}
+
+.table-1 .th-right{
+  text-align: right;
+ }
+ 
+
+
+.table-1 th{
+  background: #ff523b;
+  color: #fff;
+  padding: 7px;
+}
+
+.cart-info{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.cart-info .buy-1{
+  height: 80px;
+  padding: 7px;
+}
+
+
+.cart-page input{
+  height: 30px;
+  width: 50px;
+  
+}
+
+.input{
+  
+  text-align: right;
+}
+
+.td-right{
+  text-align: right;
+}
+
+
+
+.total-price {
+text-align: right;
+display: flex;
+justify-content: flex-end;
+}
+
+
+.total-price table{
+  border-top: 2px solid #ff523b;
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* index page media querys......................................................... */
+
+@media screen and (max-width:1300px) {
+    .testimonials{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+
+    .testimonials .user-1{
+      width: 300px;
+      margin: 20px auto;
+    }
+
+}
+
+@media screen and (max-width:1120px) {
+
+  .container-B {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(0, 255, 21);
+    margin-top: 41px;
+  }
+  
+
+  
+  .workout-style {
+    font-size: 2em;
+  }
+  
+  .success-isnt {
+    width: 400px;
+  }
+  
+  .players-png {
+    margin: auto;
+    border: 2px solid rgb(0, 255, 21);
+  }
+  
+  .players-png img {
+    width: 400px;
+  }
+
+
+  /*   second page...................................... */
+
+  .category {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(255, 0, 128);
+    margin: 7% 4%;
+  }
+  
+  .category .col-1 {
+    flex-basis: 33.33%;
+    transition: .4s ease-in;
+  }
+  
+  .category .col-1:hover {
+    transform: translate(3px ,-10px ); 
+  }
+  
+  .category img {
+    width: 100%;
+  }
+
+  .col-1 {
+    padding: 0px;
+    transition: .4s ease-in-out;
+  }
+
+  
+
+      /* .feature-product.................................... */
+
+
+
+      .feature-product {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 70px 40px 70px 40px;
+        border: 3px solid #222;
+        margin: auto;
+      }
+  
+  
+      
+      .feature-product .col-1 img {
+        width: 200px;
+  
+      }
+
+
+      .feature-product .col-1{
+          padding: 10px;
+      }
+      
+  
+      
+      .feature-product .size {
+        height: 200px;
+      }
+      
+      .feature-product .size-2 {
+        height: 245px;
+      }
+
+
+      .text-h {
+        text-align: center;
+        margin: 20px auto 30px auto;
+      }
+
+
+      .affter::after{
+        width: 160px;
+        height: 6px;
+        border-radius: 17px;
+        position: absolute;
+        content: "";
+        background: red;
+        top: 7%;
+        left: 35%;
+        right: 35%;
+      
+      }
+
+
+      /* ..............................container-4.............................................. */
+
+
+
+.watch-png {
+  margin-left: 70px;
+}
+
+.container-C {
+  border: 2px solid blueviolet;
+  width: 400px;
+}
+
+
+
+
+
+.watch-png .size-3 {
+  width: 250px;
+  margin-top: 50px;
+}
+
+
+.text-h2 {
+  font-size: 2.2em;
+}
+
+.text-p2 {
+  margin: 20px 0 0 0px;
+  font-weight: 100;
+}
+
+.text-p3 {
+  font-weight: 100;
+}
+
+      
+      /* testimonials start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: auto;
+}
+
+.user-1 .user-1-profile {
+  border-radius: 50%;
+  height: 70px;
+}
+
+.user-1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+
+/* suponsers............................... */
+
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+
+
+
+
+
+
+/* ..............................footer....................................... */
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer .container-D{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer-padding-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+hr {
+  margin: auto;
+  width: 50%;
+}
+
+
+.container-8 .footer-w {
+  width: auto;
+}
+
+
+
+
+
+
+
+
+  
+  
+ 
+  
+  
+}
+
+
+
+@media screen and (max-width:900px) {
+
+  .container-B {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(0, 255, 21);
+    margin-top: 30px;
+  }
+  
+
+  
+  .workout-style {
+    font-size: 1.5em;
+  }
+  
+  .success-isnt {
+    width: 400px;
+    font-size: 16px;
+  }
+
+  .success-isnt 
+  
+  .players-png {
+    border: 2px solid rgb(0, 255, 21);
+  }
+  
+  .players-png img {
+    width: 300px;
+  }
+
+
+/* product details css is here.................................................. */
+
+
+
+.product-detail-page-container-B{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0px 0px 0px;
+  margin: auto;
+ 
+
+}
+
+
+
+
+.details-text-col{
+  margin: 30px 0 0 13px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10px;
+
+
+
+
+}
+
+
+.gallery-4{
+  height: 380px;
+}
+
+
+
+
+
+  
+
+
+
+  
+
+ 
+
+}
+
+
+
+@media screen and (max-width:780px) {
+
+.testimonials{
+    margin: auto;
+}
+
+}
+
+
+@media screen and (max-width:780px) {
+
+  .container-B {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 255, 21);
+    margin-top: 0px;
+  }
+
+  .text{
+    margin: 10px auto;
+    border: 2px solid red;
+    text-align: center;
+  }
+
+  .explore-btn {
+    padding: 10px 19px;
+    background: #ff523b;
+    border: none;
+    border-radius: 25px;
+    margin: 10px auto;
+
+  }
+
+  
+  
+  .workout-style {
+    font-size: 1.4em;
+  }
+  
+  .success-isnt {
+    width: 100%;
+    font-size: 16px;
+  }
+
+ 
+  .players-png img {
+    width: 300px;
+  }
+
+
+    /*   second page...................................... */
+
+
+
+    .category {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border: 2px solid rgb(255, 0, 128);
+      margin: 7% 4%;
+    }
+    
+    .category .col-1 {
+      flex-basis: 33.33%;
+      transition: .4s ease-in;
+    }
+    
+  
+    
+    .category img {
+      width: 100%;
+    }
+  
+    .col-1 {
+      padding: 10px 20px;
+      transition: .4s ease-in-out;
+    }
+
+ 
+
+
+    /* .feature-product.................................... */
+
+
+
+    .feature-product {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      border: 3px solid #222;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    
+    .feature-product .col-1 img {
+      width: 200px;
+
+    }
+     
+    .feature-product .size {
+      height: 200px;
+    }
+    
+    
+    .text-h {
+      text-align: center;
+      margin: 20px auto 30px auto;
+    }
+    
+    .affter::after{
+      width: 160px;
+      height: 6px;
+      border-radius: 17px;
+      position: absolute;
+      content: "";
+      background: red;
+      top: 7%;
+      left: 35%;
+      right: 35%;
+    
+    }
+    
+    .container-3 {
+        position: relative;
+    
+    }
+    
+    .text-h2 {
+      font-size: 2.7em;
+    }
+    
+    .text-p2 {
+      margin: 60px 0 0 0px;
+      font-weight: bolder;
+    }
+    
+    .text-p3 {
+      font-weight: bolder;
+    }
+
+
+
+          /* ..............................container-4.............................................. */
+
+
+
+.watch-png {
+  margin-left: 40px;
+}
+
+.container-C {
+  border: 2px solid blueviolet;
+  width: 300px;
+}
+
+
+
+.watch-png .size-3 {
+  width: 250px;
+  margin-top: 50px;
+}
+
+
+.text-h2 {
+  font-size: 2em;
+}
+
+.text-p2 {
+  margin: 20px 0 0 0px;
+  font-weight: 100;
+}
+
+.text-p3 {
+  font-weight: 100;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:680px) {
+
+  .container-B {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 255, 21);
+    margin-top: 0px;
+  }
+
+  .text{
+    margin: 10px auto;
+    border: 2px solid red;
+    text-align: center;
+  }
+
+  .explore-btn {
+    padding: 10px 19px;
+    background: #ff523b;
+    border: none;
+    border-radius: 25px;
+    margin: 10px auto;
+
+  }
+
+  
+  
+  .workout-style {
+    font-size: 1.4em;
+  }
+  
+  .success-isnt {
+    width: 100%;
+    font-size: 16px;
+  }
+
+ 
+  .players-png img {
+    width: 250px;
+  }
+
+
+  /* navbar   ................................... */
+
+
+
+  
+  .navbar .menu-png{
+    display: block;
+    margin-left: 20px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #555;
+    width: 100%;
+    left: 0;
+    top: 65px;
+    overflow: hidden;
+    transition: 0.5s ;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    padding: 7px 10px;
+    color: #fff;
+  }
+
+
+
+  /* .feature-product........................................ */
+
+
+  .text-h {
+    text-align: center;
+    margin: 20px auto 30px auto;
+  }
+
+
+  .affter::after{
+    width: 160px;
+    height: 6px;
+    border-radius: 17px;
+    position: absolute;
+    content: "";
+    background: red;
+    top: 5%;
+    left: 34%;
+    right: 35%;
+  
+  }
+
+
+            /* ..............................container-4.............................................. */
+
+
+
+
+            
+            
+.container-4{
+  flex-direction: column;
+}
+
+.watch-png {
+  margin-left: 30px;
+  margin: auto;
+}
+
+.container-C {
+  border: 2px solid blueviolet;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+
+.watch-png .size-3 {
+  width: 300px;
+  margin-top: 50px;
+}
+
+
+.text-h2 {
+  font-size: 1.8em;
+}
+
+.text-p2 {
+  margin: 20px 0 0 0px;
+  font-weight: 100;
+}
+
+.text-p3 {
+  font-weight: 100;
+}
+
+
+/* all product page ..................................... */
+
+.container-12{
+  margin-top: 200px;
+
+}
+
+
+/* all product page css....................... */
+
+.page-btn{
+  margin: 60px auto;
+
+}
+
+
+
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #ff523b;
+  width: 40px;
+  height: 40px ;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: .4s ease-in;
+
+}
+
+ 
+
+}
+
+
+
+@media screen and (max-width:480px) {
+
+  .container-B {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 255, 21);
+    margin-top: 0px;
+  }
+
+  .text{
+    margin: 30px auto;
+    border: 2px solid red;
+    text-align: center;
+  }
+
+ 
+  .players-png img {
+    width: 340px;
+  }
+
+
+
+  /* .feature-product............................. */
+
+
+  .text-h {
+    text-align: center;
+    margin: 20px auto 30px auto;
+  }
+
+
+  .affter::after{
+    width: 160px;
+    height: 6px;
+    border-radius: 17px;
+    position: absolute;
+    content: "";
+    background: red;
+    top: 5%;
+    left: 33%;
+    right: 35%;
+  
+  }
+
+
+              /* ..............................container-4.............................................. */
+
+
+
+
+            
+            
+.container-4{
+  flex-direction: column;
+}
+
+.watch-png {
+  margin-left: 30px;
+  margin: auto;
+}
+
+.container-C {
+  border: 2px solid blueviolet;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+
+.watch-png .size-3 {
+  width: 200px;
+  margin-top: 50px;
+}
+
+
+.text-h2 {
+  font-size: 1.8em;
+}
+
+.text-p2 {
+  margin: 20px 0 0 0px;
+  font-weight: 100;
+}
+
+.text-p3 {
+  font-weight: 100;
+}
+
+
+
+
+            /* ..............................container-4.............................................. */
+
+
+
+
+            
+            
+.container-4{
+  flex-direction: column;
+}
+
+.watch-png {
+  margin-left: 30px;
+  margin: auto;
+}
+
+.container-C {
+  border: 2px solid blueviolet;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+
+.watch-png .size-3 {
+  width: 350px;
+  margin-top: 50px;
+}
+
+
+.text-h2 {
+  font-size: 1.8em;
+}
+
+.text-p2 {
+  margin: 20px 0 0 0px;
+  font-weight: 100;
+}
+
+.text-p3 {
+  font-weight: 100;
+}
+
+
+
+}
+
+
+@media screen and (max-width:530px) {
+
+
+
+
+ 
+
+
+    /* ...................testimonials */
+
+
+
+    .testimonials{
+      margin: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width:420px) {
+
+
+  /* .product-detail-page css styling is here,,,,,,,,,,,,,,,,,,,,,,,,,/ */
+
+
+  
+  .red-printed-t-shirt {
+    font-size: 1.7em;
+}
+
+
+.details-text-col{
+  min-width: 253px;
+  margin-right: 10px;
+}
+
+
+
+.different-pose-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -5px;
+}
+
+.gallery-4 {
+  height: 260px;
+}
+
+.different-pose-container .poses{
+    width: 80px;
+    margin: 4px;
+    
+}
+
+
+
+/* .product-detail-page............. */
+
+
+.gallery-4 {
+  height: 338px;
+}
+
+
+.details-text-col {
+  min-width: 243px;
+  margin-right: 10px;
+}
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:445px) {
+
+
+
+
+  /* .feature-product............................. */
+
+
+ 
+
+  .affter::after{
+    width: 160px;
+    height: 6px;
+    border-radius: 17px;
+    position: absolute;
+    content: "";
+    background: red;
+    top: 2%;
+    left: 32%;
+    right: 35%;
+  
+  }
+
+
+    /* ...................testimonials */
+
+
+
+    .testimonials{
+      margin: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+
+
+
+
+  /* .feature-product............................. */
+
+
+ 
+
+  .affter::after{
+    width: 160px;
+    height: 6px;
+    border-radius: 17px;
+    position: absolute;
+    content: "";
+    background: red;
+    top: 3%;
+    left: 29%;
+    right: 35%;
+  
+  }
+
+
+
+  /* ...................testimonials */
+
+
+
+  .testimonials{
+    margin: auto;
+  }
+
+
+
+  .testimonials{
+    flex-direction: column;
+  }
+  
+
+  .testimonials .user-1{
+    width: 300px;
+    margin: 20px auto;
+  }
+
+
+
+              /* ..............................container-4.............................................. */
+
+
+
+
+            
+            
+.container-4{
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+.watch-png .size-3 {
+  width: 300px;
+  margin-top: 50px;
+}
+
+
+.text-h2 {
+  font-size: 1.6em;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/* --------------------------------------products html start............................................. */
+
+/* /????????????????????????????????????????????????????????????????????????????????????????????????????????? */ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

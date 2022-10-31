@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar........................... */
+
+
+
+.container-A {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 30px;
+  border: 2px solid blue;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .menu-png {
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  color: #222;
+}
+
+/* ....................................................feature produccts */
+
+.container-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 40px 220px;
+}
+
+.container-12 .products-h1 {
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+
+
+/* container-3...../......................... */
+
+.feature-product {
+    display: flex;
+    flex-direction: row;
+    margin: 70px 240px 70px 200px;
+    border: 3px solid #222;
+    transition: .4s ease-in;
+  }
+
+  .feature-product .col-1{
+
+    transition: .4s ease-in;
+  }
+  
+  /* feature-product & latest product 
+  
+                       &
+  
+                  container-4
+  
+   .................utilites........................ */
+  
+  .feature-product .size {
+    height: 200px;
+  }
+  
+  .feature-product .size-2 {
+    height: 245px;
+  }
+  
+  .watch-png .size-3 {
+    width: 300px;
+    margin-top: 50px;
+  }
+  
+  .text-p {
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .feature-product .col-1{
+      padding: 20px;
+  }
+  
+  
+  
+  .feature-product .col-1:hover {
+    transform: translate(3px ,-10px ); 
+  }
+  
+  /* ................................................... */
+  
+  .text-h {
+    text-align: center;
+    margin: auto;
+  }
+  
+
+  
+  .container-3 {
+      position: relative;
+  
+  }
+  
+  .text-h2 {
+    font-size: 2.7em;
+  }
+  
+  .text-p2 {
+    margin: 60px 0 0 0px;
+    font-weight: bolder;
+  }
+  
+  .text-p3 {
+    font-weight: bolder;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* ..............................footer....................................... */
+
+.footer-God {
+    display: flex;
+    flex-direction: column;
+    background: #222;
+  }
+  
+  .copyright p {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  hr {
+    margin:auto;
+    width: 800px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 27px 51px;
+  }
+  
+  .footer-padding-class {
+    padding-left: 20px;
+  }
+  
+  .footer .footer-image-1 {
+    width: 130px;
+  }
+  
+  .footer .footer-h2 {
+    color: white;
+    font-size: 1.3em;
+  }
+  
+  .footer .footer-p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .container-8 .logo-white {
+    width: 150px;
+  }
+  
+  .container-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container-8 .footer-w {
+    width: 390px;
+  }
+  
+  .container-9 ul li {
+    list-style: none;
+  }
+  
+  .container-9 ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container-10 ul li {
+    list-style: none;
+  }
+  
+  .container-10 ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+  }

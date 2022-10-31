@@ -1,0 +1,345 @@
+*{
+    text-transform: capitalize;
+}
+
+
+
+#icon-img{
+ width: 110px;
+ padding: 12px 0px;
+}
+
+body{
+    background-color: black;
+    
+    
+}
+
+#navbar{
+    background-color: #daac00;
+    font-weight: bolder;
+    color: #fff;
+    padding: 0 8%;
+    /* height: 10vh; */
+    
+}
+
+#listItems{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#searchinput{
+background-color: #fcc302;
+border-radius: 0;
+border: none;
+box-shadow: 0px 5px 18px -2px grey;
+
+}
+
+#searchinput::placeholder{
+    
+    color: #fff;
+}
+
+#searchbtn{
+    border-left: none;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: -48px;
+    z-index: 55;
+    background-color: #00bec9;
+color: #fff;
+    
+}
+#searchbtn:hover{
+    border: 1px solid whitesmoke;
+    
+}
+
+@media only screen and (max-width:987px)  {
+    #searchForm{
+        padding-bottom: 2rem;
+    }
+}
+
+
+
+
+
+/* banner */
+
+
+
+#banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fcc302;
+}
+
+#h1first{
+    color: white;
+    font-size: 45px;
+}
+
+#banner p{
+    color: white;
+    font-size: 20px;
+}
+
+#bannerbtn1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#bannerbtn2{
+    
+    border: 2px solid #ffffff;
+    color: white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width:1020px)  {
+    #h1first{
+        color: white;
+        font-size: 40px;
+    }
+    
+    #banner p{
+        color: white;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:877px)  {
+    #h1first{
+        color: white;
+        font-size: 35px;
+    }
+    
+    #banner p{
+        color: white;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:767px)  {
+    #h1first{
+        color: white;
+        font-size: 38px;
+    }
+    
+    #banner p{
+        color: white;
+        font-size: 20px;
+    }
+}
+
+
+/* our services */
+
+#services{
+    border: 2px solid red;
+    padding-top:10% ;
+    padding-bottom:10% ;
+
+    
+}
+
+#riz-img{
+    position: relative;
+    left: 20%;
+   
+}
+
+
+#servicebtn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+
+
+
+@media only screen and (max-width:872px)  {
+    #serviceText h1{
+        font-size: 32px;
+    }
+
+   
+}
+
+@media only screen and (max-width:800px)  {
+    #serviceText h1{
+        font-size: 29px;
+    }
+
+   
+}
+
+@media only screen and (max-width:768px)  {
+    #serviceText h1{
+        font-size: 33px;
+    }
+
+   
+}
+
+
+/* couner section */
+
+.counter-icons{
+    font-size: 4rem;
+    padding: 0px 0px;
+}
+
+#counterSection{
+    background-image: url(images/w\ \(1\).jpg);
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+
+}
+
+
+@media only screen and (max-width:768px)  {
+    .counter-icons{
+        font-size: 2.5rem;
+    
+    }
+
+   
+}
+
+
+#blog{
+    margin-bottom: 70px;
+}
+
+.artical-title{
+    margin-top: 29px;
+}
+
+.one-blog{
+    
+    border: 5px solid #00bec9;
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
+/* .artical-details{
+    box-shadow: 0px 0px 6px 2px grey;
+    
+    
+} */
+
+.img-blog{
+    position: relative;
+    border-radius: 50%;
+    top: 15px;
+}
+
+
+@media only screen and (max-width:1198px)  {
+    .one-blog{
+    
+        border: none;
+        box-shadow: 0px 0px 6px 2px grey;
+        
+    }
+    
+    .img-blog{
+        position: relative;
+        border-radius: 50%;
+        top: 15px;
+    }
+   
+}
+
+
+/* footer */
+
+
+.footer-icon{
+    font-size: 26px;
+    text-decoration: none;
+}
+
+#footer{
+    padding-top:30px ;
+    padding-bottom:30px ;
+    margin-top: 130px;
+    
+    background-color: #343434;
+    /* color: white; */
+}
+
+#footer a{
+    text-decoration: none;
+    color: #fff;
+  
+    
+}
+
+/* #footer-form{
+
+} */
+
+#footer-Searchbox{
+    width: 320px;
+    background-color: #fcc302;
+    height: 40px;
+    position: relative;
+    left: 4px;
+    top: 1px;
+    border: none;
+
+}
+
+#footer-submit{
+    width: 60px;
+    border: none;
+    height: 40px;
+    border-right:1px solid black ;
+
+
+}
+
+
+@media only screen and (max-width:816px)  {
+    #footer-Searchbox{
+        width: 250px;
+        
+    }
+   
+}
+
+@media only screen and (max-width:406px)  {
+    
+    #footer-Searchbox{
+        width: 200px;
+        
+    }
+}
+
+@media only screen and (max-width:346px)  {
+    
+    #footer-Searchbox{
+        width: 100px;
+        
+    }
+}
+
+
+
